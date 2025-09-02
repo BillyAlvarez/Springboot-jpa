@@ -18,6 +18,11 @@ public class Person {
     public Person() {
     }
 
+    public Person(String name, String lastname) {
+        this.name = name;
+        this.lastname = lastname;
+    }
+
     public Person(Long id, String name, String lastname, String programingLanguage) {
         this.id = id;
         this.name = name;
